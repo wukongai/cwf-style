@@ -1,0 +1,10 @@
+{
+  "schema_version": "cwf-style-distillation-request/v1",
+  "run_id": "example-distillation",
+  "subject": {"kind": "public_author", "name": "示例作者", "genre": "生活散文", "purpose": "建立可复用档案"},
+  "sources": [
+    {"id": "work-1", "url": "https://example.com/work-1", "family": "work-1", "split": "development"},
+    {"id": "work-2", "url": "https://example.com/work-2", "family": "work-2", "split": "holdout"}
+  ],
+  "outputs": {"profile_id": "example-style", "status": "research_trial"}
+}

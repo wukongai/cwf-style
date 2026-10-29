@@ -1,0 +1,13 @@
+{
+  "schema_version": "cwf-article-rewrite-request/v1",
+  "run_id": "example-rewrite-from-meaning",
+  "source": {"kind": "existing_article", "title": "示例原文", "text": "这是完整的示例原文。它讨论日常动作如何让人意识到某种缺席。"},
+  "task": {"genre": "生活散文", "audience": "普通读者", "length": {"min_han": 80, "max_han": 300}},
+  "rewrite": {
+    "mode": "rewrite_from_meaning",
+    "preserve": {"core_meaning": "日常动作会让缺席的人重新出现", "stance": "不把缺席写成简单的治愈", "emotional_landing": "保留未完全解决的情绪"},
+    "change": {"structure": true, "materials": true, "language": true},
+    "new_material_policy": "新增场景必须来自用户提供的材料，文学虚构另行标明"
+  },
+  "style": {"id": "cwf-wang-life-prose-personality", "version": "v3-20261026-exploratory"}
+}

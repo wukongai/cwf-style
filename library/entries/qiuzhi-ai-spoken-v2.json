@@ -1,0 +1,498 @@
+{
+  "author": "秋芝2046",
+  "author_confirmation": false,
+  "examples": [
+    {
+      "function": "引入",
+      "id": "E01",
+      "kind": "synthetic",
+      "text": "你只想把三份报表对齐，结果光核对版本就忙了一下午。我们先弄清楚：究竟是哪一步把事情变复杂了。"
+    },
+    {
+      "function": "关系类比",
+      "id": "E03",
+      "kind": "synthetic",
+      "text": "把检索目录想成菜市场的摊位索引：它能告诉你去哪里找，却不能替你尝一口菜。这个类比只解释定位功能，食物的新鲜程度仍要另外检查。"
+    },
+    {
+      "function": "疑问桥接",
+      "id": "E04",
+      "kind": "synthetic",
+      "text": "文件已经找到了，为什么打开还是旧版本？因为我们刚才只核对了名字，还没有核对修改时间。"
+    },
+    {
+      "function": "反馈闭环",
+      "id": "E06",
+      "kind": "synthetic",
+      "text": "假设把两张清单按日期排好，现在能看出周二少了一项。我们先补齐这一项，再讨论总数；这只是示例推演。"
+    },
+    {
+      "function": "角色微场景",
+      "id": "E08",
+      "kind": "synthetic",
+      "text": "问路的人说：“我要去东门。”路边广告牌说：“先来买杯茶。”广告牌提供了路上的信息，却没有因此成为发号施令的人。"
+    }
+  ],
+  "expression_guides": [
+    {
+      "genre": "AI科普口播",
+      "id": "ai-spoken-full-expression",
+      "sections": [
+        {
+          "example_ids": [
+            "E01",
+            "E03",
+            "E04",
+            "E06",
+            "E08"
+          ],
+          "layer": "composition",
+          "rule_ids": [
+            "R01",
+            "R02",
+            "R03",
+            "R04",
+            "R05",
+            "R06",
+            "R07",
+            "R08",
+            "R12",
+            "R13",
+            "R14"
+          ],
+          "text": "证据综合：这类口播是在带观众走过一个“原来还能这样理解/使用”的过程。可以从现实问题、可见用途或反常结果进入，不必先报完术语和结论。围绕一个核心任务，先让观众看清具体发生什么，再补解决这个问题所需的概念；讲到新能力时，接着问原来的需求是否真的被满足。必要时回到前面同一任务，让新概念改变我们对它的理解。教程可以逐步加能力，解释稿则靠问题和机制推进，不虚构实验。一个类比若能持续解释角色与步骤，就沿用并适时回到真实机制；短事实已经清楚时直接说明。本轮使用边界：现有事实卡里的具体情境若能承载引入、解释和权限变化，就让它继续工作，不为分别命中类比、对白、反馈再造另一套场景。这是本次表达组织的去重安排，不是声称作者每期固定如此。结尾回收听众现在能辨别或做什么，不先总结三条口号再重说三遍。"
+        },
+        {
+          "example_ids": [],
+          "layer": "narrator",
+          "rule_ids": [
+            "R09",
+            "R10",
+            "R14"
+          ],
+          "text": "证据综合：讲述者与初学者并肩把事弄懂，有明确的判断和反应，而不是播报一份没有人的标准答案。用“我们”带共同理解的动作，用“你”接当前会卡住的选择与疑问；人称不设配额，也不需要每段叫朋友。可以对正在推演的结果表达一句自然反应，随即给出原因。第一人称只用于当前解释立场或本轮有证据的经历，不能借用旧作品的亲测、损失、身份和资源。热情与轻松不等于全能承诺；结论保留条件，研究中的未来想象和当前已知分开。"
+        },
+        {
+          "example_ids": [],
+          "layer": "language",
+          "rule_ids": [
+            "R02",
+            "R04",
+            "R08",
+            "R09",
+            "R10",
+            "R11",
+            "R14"
+          ],
+          "text": "证据综合：口语感跟着信息发生。生词落在具体动作上，英文在确有识别需要时给中文含义；不要凭英文比例制造专业感。展开关系可以说得稍长，发现关键差别时可以短下来；不是把所有句子切碎。追问在真正出现理解缺口处提出，答案带下一层信息，不把每段都改成同一种问答。信息密处或小挫折可以有一句短插话、轻微调侃或自嘲，随后立刻回到机制；不搬原作包袱，也不嘲笑听众。对应关系尽量让角色的动作和结果显出来，不连着逐项宣讲“这个对应那个”。本轮边界：事实限制自然进入句意，执行说明留在记录，不在成稿反复解释没有测试、没有编造。"
+        }
+      ]
+    }
+  ],
+  "id": "cwf-qiuzhi-ai-spoken-20261024",
+  "mode": "public_author_research",
+  "reviewer_role": "researcher",
+  "rules": [
+    {
+      "boundary": "利益承诺必须落在本轮事实包内；不要求固定招呼、固定CTA或每题都制造危机。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 0–36秒；短锚点在22.42秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "你也有了",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 0–43秒；短锚点在21.02秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "看完",
+          "source_id": "D6"
+        }
+      ],
+      "function": "引入",
+      "id": "R01",
+      "instruction": "开头先给一个听众能认出的具体问题、反常结果或想得到的用途，再用一句话交代本条能帮助判断或学会什么。",
+      "misuse": "把学习收益夸成已经实测成功，或者用夸张断言掩盖证据不足。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "原作有先术语后解释，也有先困惑后定义；不固定两者次序。专业限定不能因口语化被删掉。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 143–198秒；短锚点在148.72秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "接口",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 235–340秒；短锚点在235.36秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "代理",
+          "source_id": "D4"
+        }
+      ],
+      "function": "概念解释",
+      "id": "R02",
+      "instruction": "新术语出现时，把它正在解决的问题和具体含义翻成日常动作；正式名称用于给理解贴标签，随后回到这个动作。",
+      "misuse": "连续堆英文缩写，或为了好懂把技术定义替换成错误定义。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "适合存在稳定对应关系的机制；短小事实或无法一致映射的题目不用强加贯穿类比。具体原作比喻不可搬用。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 157–260秒；短锚点在159.52秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "工厂",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 850–959秒；短锚点在875.44秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "山谷",
+          "source_id": "D5"
+        }
+      ],
+      "function": "关系类比",
+      "id": "R03",
+      "instruction": "需要解释多个相互关联的角色或步骤时，选一个原创的日常场景，明确各角色对应什么，随后让同一场景继续承担两三个解释步骤；映射不成立处及时退出类比。",
+      "misuse": "比喻层层变换增加记忆负担，或把人物动机、意识、物理结构当成AI机制的事实。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "只在理解出现缺口时使用；连续多个设问会拖慢口播。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 763–790秒；短锚点在765.64秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "怎么用呢",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 600–650秒；短锚点在619.82秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "怎么",
+          "source_id": "D4"
+        }
+      ],
+      "function": "疑问桥接",
+      "id": "R04",
+      "instruction": "转段前提出听众此刻最可能追问的一个具体问题，下一段直接解答；问题必须推进信息，不能只装作互动。",
+      "misuse": "每段机械添加问句，或问完不回答、答案没有新增内容。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "这是教程子类型规则；论文解读可以停留在问题与证据，不必虚构新解决方案。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 780–815秒；短锚点在799.64秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "第一",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 780–815秒；短锚点在802.90秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "界面",
+          "source_id": "D6"
+        }
+      ],
+      "function": "学习梯度",
+      "id": "R05",
+      "instruction": "实操教程先完成一个最小闭环，确认它能做什么，再逐层增加界面、工具或任务复杂度；升级时说明原方案还缺什么。",
+      "misuse": "把多种工具列成购物清单，或为了升级叙事假称存在不存在的功能。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "有真实材料时才描述实际结果；没有试验记录时只能推演可能行为，不得保证模型一定如此响应。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 595–618秒；短锚点在604.64秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "回复",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 63–128秒；短锚点在121.94秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "看",
+          "source_id": "D6"
+        }
+      ],
+      "function": "反馈闭环",
+      "id": "R06",
+      "instruction": "演示段把动作、可观察到的结果和简短解释贴在一起，再进入下一步；模拟情境要明确是假设，不写成亲测。",
+      "misuse": "用“成功了”替代证据，或者把预期输出、截图说明写成自己的真实经历。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "原作并非每次都提供解法；不能把局限自动写成彻底无效，也不能承诺一招解决。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 485–555秒；短锚点在505.44秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "但是",
+          "source_id": "D4"
+        },
+        {
+          "locator": "公开音轨ASR 780–815秒；短锚点在801.66秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "原始",
+          "source_id": "D6"
+        }
+      ],
+      "function": "比较推进",
+      "id": "R07",
+      "instruction": "比较方法时，先承认旧办法能完成的部分，再指出一个具体未满足的需求，由此解释新办法增加了什么；证据只够揭示局限时就停在局限。",
+      "misuse": "为了制造反转故意贬低旧方案，或把研究结果升级为通用结论。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "对白是解释性合成情境，不是作者经历或真实模型输出；角色不能获得事实包之外的能力与动机。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 317–330秒；短锚点在321.92秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "哎",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 660–692秒；短锚点在675.94秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "我",
+          "source_id": "D4"
+        }
+      ],
+      "function": "角色微场景",
+      "id": "R08",
+      "instruction": "在抽象信息传递难以理解的位置，用两三句原创角色对白把“谁提出什么、另一方如何理解或返回”演出来；对白后立即说明其技术对应。",
+      "misuse": "把拟人化当作AI具有意识、情绪或稳定意图的证据，或一段对白演成无关小剧场。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "人称频率是观察结果，不设比例配额。并非每句都要叫朋友或写我们。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 132–142秒；短锚点在138.32秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "我们",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 1067–1117秒；短锚点在1067.26秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "我们",
+          "source_id": "D6"
+        }
+      ],
+      "function": "叙述关系",
+      "id": "R09",
+      "instruction": "带听众做理解或操作时，用共同学习的视角交代下一步，让第二人称落在具体选择和疑问上；第一人称经历仅用本轮有据材料。",
+      "misuse": "用亲密称呼替代解释，或盗用原作的测试、身份、资源积累作为自己的经历。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "严肃题目、受害者情境或证据不清时少用；不复用原作者专属包袱。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 580–598秒；短锚点在586.30秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "开玩笑",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 1580–1598秒；短锚点在1591.88秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "睡觉",
+          "source_id": "D4"
+        }
+      ],
+      "function": "轻松插话",
+      "id": "R10",
+      "instruction": "在信息较密或出现小挫折的位置允许一句短反应或轻微调侃，随后马上回到事实和解释；笑点服务于换气。",
+      "misuse": "持续接梗压过信息，嘲讽听众，或以玩笑掩盖风险与事实缺口。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "不同题材的英文字母比例差异很大；ASR产品名可能拼错，成稿以新事实包的官方名称为准。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 143–155秒；短锚点在143.28秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "API",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 465–490秒；短锚点在477.20秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "COT",
+          "source_id": "D4"
+        }
+      ],
+      "function": "术语落地",
+      "id": "R11",
+      "instruction": "英文名和命令只在识别概念或实际操作确有需要时出现，首次出现给出中文含义或动作说明；不为接近统计比例堆英文。",
+      "misuse": "模仿转录错词，或把英文密度当成专业度与文风相似度。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "只在确有多层解释或跨段回归时用；短稿不需要反复总结同一内容。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 1169–1205秒；短锚点在1184.64秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "复习",
+          "source_id": "D3"
+        },
+        {
+          "locator": "公开音轨ASR 995–1030秒；短锚点在1018.70秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "回到",
+          "source_id": "D4"
+        }
+      ],
+      "function": "主线回收",
+      "id": "R12",
+      "instruction": "较长段落展开后，用一句话回收刚才的问题、复述已掌握的关键关系，再把它用于下一段的新操作或判断。",
+      "misuse": "口播不断说回到正题却没有回收具体问题，或者以重复拖长篇幅。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "原作既有能力总结，也有开放讨论；无需统一升华，不凭空承诺资料包、持续更新或后续课程。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 1067–1117秒；短锚点在1067.26秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "学习",
+          "source_id": "D6"
+        },
+        {
+          "locator": "公开音轨ASR 1212–1255秒；短锚点在1214.34秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "掌握",
+          "source_id": "D7"
+        }
+      ],
+      "function": "收束",
+      "id": "R13",
+      "instruction": "结尾根据题型回收收获：教程说听众现在能做什么，解释稿说现在能怎样判断，再给一个与本题有关的下一步。",
+      "misuse": "把所有科普都接到人生金句、关注请求或无法交付的免费资料。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    },
+    {
+      "boundary": "这是样本局部可见的限定动作；D5开头强断言与后文限定存在张力，不能宣称作者始终克制。本轮事实约束优先。",
+      "evidence": [
+        {
+          "locator": "公开音轨ASR 1561–1605秒；短锚点在1572.62秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "实验",
+          "source_id": "D4"
+        },
+        {
+          "locator": "公开音轨ASR 1030–1080秒；短锚点在1048.44秒。见该范围的信息组织，非逐字音频校订稿。",
+          "quote": "当然",
+          "source_id": "D5"
+        }
+      ],
+      "function": "判断校准",
+      "id": "R14",
+      "instruction": "下总体判断时，保留实验条件、能力范围和尚不确定的部分；把已观察结果与未来推测分开表达。",
+      "misuse": "把开头的悬念与意识推测照搬为科学结论，或以文风为由删掉确定性限定。",
+      "scope": [
+        "AI科普口播"
+      ],
+      "strength": "observed"
+    }
+  ],
+  "schema_version": "cwf-public-style-profile/v2",
+  "scope": [
+    "AI科普口播"
+  ],
+  "sources": [
+    {
+      "access": "public",
+      "extractor_seen": true,
+      "family": "BV1LEKMexEV7",
+      "genre": "AI科普口播",
+      "hash_scope": "observed_text_utf8",
+      "id": "D3",
+      "observed_text_sha256": "cc2b8359550915895eda1b01e79960ef5f6a7afa94cf89ad52fa09be66af1439",
+      "retrieved_at": "2026-10-24",
+      "split": "development",
+      "url": "https://www.youtube.com/watch?v=m_uicdCrPGw"
+    },
+    {
+      "access": "public",
+      "extractor_seen": true,
+      "family": "BV17fX5Y5Ecv",
+      "genre": "AI科普口播",
+      "hash_scope": "observed_text_utf8",
+      "id": "D4",
+      "observed_text_sha256": "db6cdfcbadd41ec1a45ffe124524fb6a093b7aedfa2c33f67fb0b73e8b425fb9",
+      "retrieved_at": "2026-10-24",
+      "split": "development",
+      "url": "https://www.youtube.com/watch?v=bordgIwHI3Y"
+    },
+    {
+      "access": "public",
+      "extractor_seen": true,
+      "family": "BV1Hh5DzNEQF",
+      "genre": "AI科普口播",
+      "hash_scope": "observed_text_utf8",
+      "id": "D5",
+      "observed_text_sha256": "a0d33c5b0504768b80bf690e23e5ac327ab918a345252d62cc9f18484042af53",
+      "retrieved_at": "2026-10-24",
+      "split": "development",
+      "url": "https://www.youtube.com/watch?v=9YUZkvh-nSE"
+    },
+    {
+      "access": "public",
+      "extractor_seen": true,
+      "family": "BV1pFjxzTEd5",
+      "genre": "AI科普口播",
+      "hash_scope": "observed_text_utf8",
+      "id": "D6",
+      "observed_text_sha256": "2da24f02477cf6a6cf7ad86b817bea130ed0347a0e85f909a7832f9645d163d1",
+      "retrieved_at": "2026-10-24",
+      "split": "development",
+      "url": "https://www.youtube.com/watch?v=j75yAbaJqEo"
+    },
+    {
+      "access": "public",
+      "extractor_seen": true,
+      "family": "BV1zqeMzfEiQ",
+      "genre": "AI科普口播",
+      "hash_scope": "observed_text_utf8",
+      "id": "D7",
+      "observed_text_sha256": "fe1dec7d5a2d74369c6e0f9605ba16ecd1c4d69ce894f74a3bab39212464f320",
+      "retrieved_at": "2026-10-24",
+      "split": "development",
+      "url": "https://www.youtube.com/watch?v=J83BFDHeut0"
+    },
+    {
+      "access": "public",
+      "extractor_seen": false,
+      "family": "BV1WzJcz5Eij",
+      "genre": "AI科普口播",
+      "hash_scope": "observed_text_utf8",
+      "id": "H1",
+      "observed_text_sha256": null,
+      "retrieved_at": "2026-10-24",
+      "split": "holdout",
+      "url": "https://www.youtube.com/watch?v=s01Dr1IzKQQ"
+    }
+  ],
+  "version": "0.2.0-expression-candidate"
+}

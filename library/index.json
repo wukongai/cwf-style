@@ -1,0 +1,35 @@
+{
+  "schema_version": "cwf-style-library/v1",
+  "entries": [
+    {
+      "id": "cwf-wang-life-prose-personality",
+      "display_name": "汪曾祺生活散文风格·研究试用版",
+      "genre": ["生活散文"],
+      "profile": "entries/wang-life-prose-v3.json",
+      "status": "research_trial",
+      "availability": "callable",
+      "preview": "entries/wang-life-prose-preview.md",
+      "limitations": ["小样本研究综合，不代表作者确认", "已有改写案例的用户反馈指出结构重构仍需单独验证"]
+    },
+    {
+      "id": "cwf-qiuzhi-ai-spoken-20261024",
+      "display_name": "秋芝2046 AI科普口播·研究试用版",
+      "genre": ["AI科普口播"],
+      "profile": "entries/qiuzhi-ai-spoken-v2.json",
+      "status": "research_trial",
+      "availability": "callable",
+      "preview": "entries/qiuzhi-ai-spoken-preview.md",
+      "limitations": ["已有实际口播试跑，但个性化效果仍待用户校准", "不自动外推到文学散文"]
+    },
+    {
+      "id": "cwf-yigongzi-cultural-article",
+      "display_name": "意公子文化人物表达·待补全",
+      "genre": ["文化人物与作品解读文章"],
+      "profile": "entries/yigongzi-placeholder.json",
+      "status": "draft",
+      "availability": "needs_build",
+      "preview": "entries/yigongzi-placeholder.md",
+      "limitations": ["旧探索资料尚未形成现行完整表达档案，不能直接调用"]
+    }
+  ]
+}

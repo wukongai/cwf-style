@@ -1,0 +1,14 @@
+{
+  "schema_version": "cwf-article-rewrite-request/v1",
+  "run_id": "example-rebuild-from-thread",
+  "source": {"kind": "existing_article", "title": "示例原文", "text": "这是完整的示例原文。它有一个人物、一个事件和一个没有解决的情绪。"},
+  "task": {"genre": "生活散文", "audience": "普通读者", "length": {"min_han": 80, "max_han": 300}},
+  "rewrite": {
+    "mode": "rebuild_from_thread",
+    "preserve": {"main_thread": "保留人物面对事件后产生的情绪线索", "key_people_events": ["人物", "事件"], "core_meaning": "保留原文的核心意思"},
+    "reorganization_plan": ["从人物的一个动作开篇", "把原事件放到中段承担转折", "结尾回收未解决的情绪"],
+    "change": {"structure": true, "language": true},
+    "new_material_policy": "只使用用户提供的材料"
+  },
+  "style": null
+}

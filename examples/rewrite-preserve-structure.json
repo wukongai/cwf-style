@@ -1,0 +1,21 @@
+{
+  "schema_version": "cwf-article-rewrite-request/v1",
+  "run_id": "example-preserve-structure",
+  "source": {
+    "kind": "existing_article",
+    "title": "示例原文",
+    "text": "这是完整的示例原文。它有一个开头场景、一个中段转折和一个结尾判断。"
+  },
+  "task": {
+    "genre": "生活散文",
+    "audience": "普通读者",
+    "length": {"min_han": 80, "max_han": 300}
+  },
+  "rewrite": {
+    "mode": "preserve_structure",
+    "preserve": {"structure": ["开头场景", "中段转折", "结尾判断"], "core_meaning": "保留原文的核心判断"},
+    "change": {"language": true, "structure": false},
+    "new_material_policy": "只使用用户提供的材料"
+  },
+  "style": {"id": "cwf-wang-life-prose-personality", "version": "v3-20261026-exploratory"}
+}

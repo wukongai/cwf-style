@@ -1,0 +1,180 @@
+{
+  "schema_version": "cwf-public-style-profile/v2",
+  "mode": "public_author_research",
+  "id": "cwf-wang-life-prose-personality",
+  "version": "v3-20261026-exploratory",
+  "author": "汪曾祺",
+  "scope": [
+    "生活散文"
+  ],
+  "reviewer_role": "researcher",
+  "author_confirmation": false,
+  "sources": [
+    {
+      "id": "DEV-DUCK",
+      "family": "wang-zengqi/端午的鸭蛋",
+      "split": "development",
+      "genre": "生活散文",
+      "url": "https://www.chinawriter.com.cn/n1/2018/1127/c405084-30428152.html",
+      "retrieved_at": "2026-10-23",
+      "observed_text_sha256": "aa125aa5c9102b4e3270874d5283ba65a0825a4b1c60ac4083fe23276fc51208",
+      "hash_scope": "observed_text_utf8",
+      "access": "public",
+      "extractor_seen": true
+    },
+    {
+      "id": "DEV-RAIN",
+      "family": "wang-zengqi/昆明的雨",
+      "split": "development",
+      "genre": "生活散文",
+      "url": "https://epaper.gmw.cn/zhdsb/html/2021-03/17/nw.D110000zhdsb_20210317_1-12.htm",
+      "retrieved_at": "2026-10-23",
+      "observed_text_sha256": "1b62070b040cdc9ebb1fd55da9e71c60dc058cf36d3ab4c37a1b7059f0fed394",
+      "hash_scope": "observed_text_utf8",
+      "access": "public",
+      "extractor_seen": true
+    },
+    {
+      "id": "DEV-MOMS",
+      "family": "wang-zengqi/大妈们",
+      "split": "development",
+      "genre": "生活散文",
+      "url": "https://epaper.gmw.cn/zhdsb/html/2021-03/17/nw.D110000zhdsb_20210317_1-12.htm",
+      "retrieved_at": "2026-10-26",
+      "observed_text_sha256": "eed394a6b7d28c709f6b4827594463ff06701eed872d64bd0fba483b759b9c1c",
+      "hash_scope": "observed_text_utf8",
+      "access": "partial",
+      "extractor_seen": true
+    }
+  ],
+  "rules": [
+    {
+      "id": "LV1",
+      "instruction": "物件要辨到品类、材料、用途和与别物的差别，使用具体名词和动作。说明时容一点日常经验的认真，不急着把每件东西都变成象征；细节须来自本轮素材或获准的虚构。",
+      "function": "生活辨物",
+      "scope": [
+        "生活散文"
+      ],
+      "strength": "observed",
+      "evidence": [
+        {
+          "source_id": "DEV-DUCK",
+          "locator": "正文挑蛋段：辨壳色与形状，并把挑选接到孩子的乐趣",
+          "quote": "淡青壳"
+        },
+        {
+          "source_id": "DEV-MOMS",
+          "locator": "大妈们丁大妈段：衣料随季节分说，再说明款式与人",
+          "quote": "派力司"
+        }
+      ],
+      "boundary": "可观察的物事细节；不是每样东西都补百科，不迁入原作物产。",
+      "misuse": "只堆漂亮形容词、把普通物件一律写成记忆或岁月的象征。"
+    },
+    {
+      "id": "LV2",
+      "instruction": "叙述者有局部偏爱和一点不肯装客气的意见，评论针对眼下人的样子、兴趣或小毛病。喜欢一个人可以带轻微打趣，不把人物先净化成温情榜样，也不在上面嘲笑。",
+      "function": "偏爱与人物",
+      "scope": [
+        "生活散文"
+      ],
+      "strength": "observed",
+      "evidence": [
+        {
+          "source_id": "DEV-DUCK",
+          "locator": "籍贯与鸭蛋评价段：嫌外地人只想到鸭蛋，却又真认家乡咸蛋好，偏爱有转折",
+          "quote": "不大高兴"
+        },
+        {
+          "source_id": "DEV-MOMS",
+          "locator": "丁大妈段：外甥女来访的得意接回步态，旁白保留她的小自得",
+          "quote": "非常得意"
+        }
+      ],
+      "boundary": "本轮人物允许的脾气和叙述者的感受；不推出作者本人性格定论。",
+      "misuse": "把人写成无缺点的母亲符号，或以讽刺和苦难制造辨识度。"
+    },
+    {
+      "id": "LV3",
+      "instruction": "信息可在连贯句里说透，旁边容一个短直、带口语判断的句子；必要时顺口补说或折回。尽量让具体名词延续，不为避免重复不断换抒情代称；不要整篇排成金句，也不把反问/方言设配额。",
+      "function": "语言声口",
+      "scope": [
+        "生活散文"
+      ],
+      "strength": "observed",
+      "evidence": [
+        {
+          "source_id": "DEV-DUCK",
+          "locator": "双黄蛋段：说明普通口味后突然用短口语评句收住；与后面的辨物叙述交错",
+          "quote": "还不就是"
+        },
+        {
+          "source_id": "DEV-RAIN",
+          "locator": "缅桂花名称段：解释名称时自我折回，接着仍回到具体花与人",
+          "quote": "话又说回来"
+        }
+      ],
+      "boundary": "只是样本中的声口组合，非作者所有篇章的句式模板；不照搬原句。",
+      "misuse": "加满问号感叹号、强用古语口头禅、逐句写得诗化而无具体所指。"
+    },
+    {
+      "id": "LV4",
+      "instruction": "人情中保留日常盘算：好意、顾虑、虚荣和兴致可以共存。先写这些如何落到动作和用物上，感情可以直接出现但落在具体感受，不替人物总结一生，也不为漂亮结尾清除矛盾。",
+      "function": "情感分寸",
+      "scope": [
+        "生活散文"
+      ],
+      "strength": "observed",
+      "evidence": [
+        {
+          "source_id": "DEV-RAIN",
+          "locator": "送花段：先写卖花与防房客乱摘的可能顾虑，再到送花带来的感受；不把动机净化",
+          "quote": "怕房客们"
+        },
+        {
+          "source_id": "DEV-MOMS",
+          "locator": "结尾闲谈段：既写家长里短，也明确区分好奇和搬弄是非，判断有分寸",
+          "quote": "不搬弄是非"
+        }
+      ],
+      "boundary": "来自当前所读生活散文，不能因此规定所有散文必须含蓄、必须无议论。",
+      "misuse": "把人物的小盘算改成恶意，或用完美牺牲/空泛治愈消除真实脾气。"
+    }
+  ],
+  "expression_guides": [
+    {
+      "id": "life-prose-personality",
+      "genre": "生活散文",
+      "sections": [
+        {
+          "layer": "composition",
+          "text": "这份探索档案把注意力放在人对日常物事的讲究、偏爱和小动作。可以从物的差别、人的习惯或一句闲话起笔，由一个细处随意说开，再回到正在发生的人事；不必严格起承转合，也不把每个细节都说明“象征什么”。物有生活用途，人有自己的兴致，不做抒情道具。人物在动作和局部评价里逐渐立住，结尾可停在仍在过的日子，不替这一家人总结人生。这里的具体组织由新素材决定，不是每篇固定先物后人。",
+          "rule_ids": [
+            "LV1",
+            "LV2",
+            "LV4"
+          ],
+          "example_ids": []
+        },
+        {
+          "layer": "narrator",
+          "text": "讲述者熟悉眼前生活，愿意停下细看，声音有自己的偏心：喜欢会说喜欢，觉得好笑可以顺口说一句。看人不端道德架子，也不把关爱写得没有私心；小毛病可以与可爱并存。叙述者不是每事都懂，心理推测留作推测。情绪可显露，但不以苦难、崇高或全家共同顿悟抬高一个小场面。既不是全知赞美者，也不是冷眼拆穿者。",
+          "rule_ids": [
+            "LV2",
+            "LV4"
+          ],
+          "example_ids": []
+        },
+        {
+          "layer": "language",
+          "text": "名词尽量叫出实物，动词写清怎样拿、挪、看、说。词语不为漂亮而离开生活。细处说得稍密，忽然落一句平直的个人评语或口语补充，随后仍接着说事；短句要有自己的口气，不只是切断句子。允许少量具体比拟、轻微自问和重复，但不铺满诗化意象，不罗列必用词。这里所谓声口是这些选择的配合，不是复读原作者的句式和词。",
+          "rule_ids": [
+            "LV1",
+            "LV3"
+          ],
+          "example_ids": []
+        }
+      ]
+    }
+  ]
+}
