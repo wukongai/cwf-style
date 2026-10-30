@@ -1,6 +1,6 @@
 # cwf-style 发布与使用命令手册
 
-> 当前仓库目标：`wukongai/cwf-style`。本目录是发布候选，不代表远程仓库已经创建或推送成功。
+> 当前仓库：[`wukongai/cwf-style`](https://github.com/wukongai/cwf-style)。`main` 已发布，最新验证提交为 `92ec766`。
 
 ## 普通用户安装
 
@@ -76,6 +76,10 @@ git pull --ff-only
 
 普通用户回滚优先重新安装已确认的版本标签或提交。维护者回滚优先使用新的 `git revert` 提交，避免用 `git reset --hard` 丢失本地内容。
 
-## 当前阻断
+## 当前验证结果
 
-本候选仍缺许可证决定；GitHub 账号当前认证无效，且本机代理阻断远程读写。未创建、未推送 `wukongai/cwf-style`，因此当前没有可交付的远程链接。
+- 远程仓库：`https://github.com/wukongai/cwf-style`
+- 远程 `main`：`92ec766ab2e4018482a15d45eb527e8c8e617e70`
+- 从远程全新克隆后，11 项回归测试全部通过。
+- `npx skills add wukongai/cwf-style --skill cwf-style-distillation --skill cwf-article-rewrite -a codex -y` 在临时项目中成功安装两个 Skill。
+- 许可证仍需单独决定；公开仓库可访问不等于已经授予特定开源许可。

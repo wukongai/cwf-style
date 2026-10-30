@@ -2,7 +2,7 @@
 
 独立的文风工具仓库：把**文风蒸馏**和**文章改写**拆成两个 Skill，并通过同一个文风库交接。
 
-本仓库与 CWF 总工程分开维护，可以单独发布、安装和升级。仓库名建议为 `wukongai/cwf-style`；当前目录是发布候选，尚未推送到远程。
+本仓库与 CWF 总工程分开维护，可以单独发布、安装和升级。远程仓库：[wukongai/cwf-style](https://github.com/wukongai/cwf-style)。当前 `main` 已发布，最新提交为 `92ec766`。
 
 ## 仓库内容
 
@@ -70,4 +70,4 @@ npx skills add wukongai/cwf-style --skill cwf-article-rewrite
 
 ## 当前状态
 
-这是 `0.1.0-candidate` 发布候选。许可证、远程仓库创建、用户账号认证和真实任务效果验证仍需完成；在这些事项完成前，不把候选目录称为已经发布的公共仓库。
+这是 `0.1.0` 发布版本。远程克隆、11 项回归测试和两个 Skill 的 project-only 安装已验证通过；真实任务效果仍需按具体文风和题材继续评估。
