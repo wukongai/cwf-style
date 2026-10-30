@@ -10,8 +10,9 @@ class PackageBoundaryTests(unittest.TestCase):
         for path in root.rglob("*"):
             if ".git" in path.parts or not path.is_file():
                 continue
-            if any(part in forbidden_parts for part in path.parts):
-                offenders.append(str(path.relative_to(root)))
+            relative = path.relative_to(root)
+            if any(part in forbidden_parts for part in relative.parts):
+                offenders.append(str(relative))
         self.assertEqual(offenders, [])
 
 
