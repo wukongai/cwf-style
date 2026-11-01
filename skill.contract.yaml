@@ -1,17 +1,17 @@
 schema_version: "cwf-style-repository/v1"
 name: cwf-style
-version: 0.1.0-candidate
+version: 0.1.1
+license: MIT
 scope: standalone-repository
 skills:
   - skills/cwf-style-distillation
   - skills/cwf-article-rewrite
 shared_library: library
 runtime: shared
-status: candidate_incomplete
+status: created_untried
 release_blockers:
-  - license_decision_pending
-  - remote_repository_not_created
   - real_world_effect_validation_pending
+  - workbuddy_utility_validation_pending
 forbidden:
   - credentials
   - private_corpus

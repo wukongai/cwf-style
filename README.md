@@ -2,7 +2,7 @@
 
 独立的文风工具仓库：把**文风蒸馏**和**文章改写**拆成两个 Skill，并通过同一个文风库交接。
 
-本仓库与 CWF 总工程分开维护，可以单独发布、安装和升级。远程仓库：[wukongai/cwf-style](https://github.com/wukongai/cwf-style)。当前 `main` 已发布，最新提交为 `92ec766`。
+本仓库与 CWF 总工程分开维护，可以单独发布、安装和升级。远程仓库：[wukongai/cwf-style](https://github.com/wukongai/cwf-style)。当前 `main` 已发布，版本为 `0.1.1`。
 
 ## 仓库内容
 
@@ -54,7 +54,7 @@ git status --short
 
 ## 安装和发布
 
-仓库真正发布后，普通用户可以运行：
+Codex 用户可以运行：
 
 ~~~bash
 npx skills add wukongai/cwf-style
@@ -68,6 +68,8 @@ npx skills add wukongai/cwf-style --skill cwf-article-rewrite
 
 完整发布顺序、认证安全、白名单和回滚见 [发布与使用手册](docs/PUBLISHING.md)。
 
+WorkBuddy 用户请按 [WorkBuddy 安装与验证](docs/WORKBUDDY.md) 操作。当前 `npx skills` 没有 WorkBuddy 适配器，因此 WorkBuddy 使用用户级 Skill 目录安装。
+
 ## 当前状态
 
-这是 `0.1.0` 发布版本。远程克隆、11 项回归测试和两个 Skill 的 project-only 安装已验证通过；真实任务效果仍需按具体文风和题材继续评估。
+这是 `0.1.1` 发布版本。远程克隆、11 项回归测试、两个 Skill 的 Codex 安装和 WorkBuddy 用户目录安装检查已验证通过；真实文风效果仍需按具体文风和题材继续评估。

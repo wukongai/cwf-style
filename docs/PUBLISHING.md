@@ -1,10 +1,10 @@
 # cwf-style 发布与使用命令手册
 
-> 当前仓库：[`wukongai/cwf-style`](https://github.com/wukongai/cwf-style)。`main` 已发布，最新验证提交为 `92ec766`。
+> 当前仓库：[`wukongai/cwf-style`](https://github.com/wukongai/cwf-style)。`main` 已发布，当前版本为 `0.1.1`。
 
 ## 普通用户安装
 
-发布后，在终端运行：
+普通 Codex 用户在终端运行：
 
 ~~~bash
 npx skills add wukongai/cwf-style
@@ -17,6 +17,14 @@ npx skills add wukongai/cwf-style --skill cwf-article-rewrite
 ~~~
 
 如果命令参数与本机版本不同，先运行 `npx skills --help`。不要把示例命令里的占位符、作者名或旧截图当作当前参数。
+
+需要无人值守安装两个 Skill 时：
+
+~~~bash
+npx --yes skills add wukongai/cwf-style --skill cwf-style-distillation --skill cwf-article-rewrite -a codex -y
+~~~
+
+WorkBuddy 不在 `npx skills` 的宿主列表中，请按 [WorkBuddy 安装与验证](WORKBUDDY.md) 将两个 Skill 复制到 `$HOME/.workbuddy/skills/`，重启 WorkBuddy 后再做最小任务验证。
 
 ## 开发者检查
 
@@ -58,7 +66,7 @@ git ls-remote --heads origin
 只有在许可证、所有者、仓库名、公开性、认证和网络都已确认后，才执行：
 
 ~~~bash
-git add README.md VERSION skill.contract.yaml skills library shared tests docs .gitignore
+git add README.md VERSION LICENSE skill.contract.yaml skills library shared tests docs .gitignore
 git commit -m "feat: publish standalone cwf style skills"
 git push -u origin main
 ~~~
@@ -79,7 +87,8 @@ git pull --ff-only
 ## 当前验证结果
 
 - 远程仓库：`https://github.com/wukongai/cwf-style`
-- 远程 `main`：`92ec766ab2e4018482a15d45eb527e8c8e617e70`
+- 远程 `main`：以 GitHub 当前 `main` 为准；本次发布版本为 `0.1.1`。
 - 从远程全新克隆后，11 项回归测试全部通过。
 - `npx skills add wukongai/cwf-style --skill cwf-style-distillation --skill cwf-article-rewrite -a codex -y` 在临时项目中成功安装两个 Skill。
-- 许可证仍需单独决定；公开仓库可访问不等于已经授予特定开源许可。
+- WorkBuddy 用户目录安装已完成文件级检查，两个 Skill 都包含 WorkBuddy 入口元数据和 `skill.contract.yaml`；真实任务激活仍需在 WorkBuddy 新会话中复核。
+- 许可证为 MIT，详见仓库根目录 `LICENSE`。

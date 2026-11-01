@@ -1,0 +1,10 @@
+name: cwf-article-rewrite
+version: 0.1.1
+kind: prompt
+scope: direct/manual
+inputs: [complete_source_text, rewrite_mode, audience, length, optional_style_profile]
+outputs: [rewritten_article, change_report, fidelity_review, unresolved_items]
+stops: [missing_full_source, missing_rewrite_mode, missing_core_meaning, user_pause]
+forbidden: [fabricated_facts, private_source_publication, automatic_publish]
+approvals: [output_write, install, external_side_effects]
+utility_claim: false

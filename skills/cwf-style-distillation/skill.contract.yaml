@@ -1,0 +1,10 @@
+name: cwf-style-distillation
+version: 0.1.1
+kind: prompt
+scope: direct/manual
+inputs: [source_materials, author_or_person, genre, purpose, authorization_scope]
+outputs: [style_profile, style_card, evidence_scope, limitations, versioned_library_entry]
+stops: [insufficient_sources, missing_authorization, unsupported_genre, user_pause]
+forbidden: [credentials, private_corpus_publication, fabricated_sources, automatic_publish]
+approvals: [library_write, install, external_side_effects]
+utility_claim: false

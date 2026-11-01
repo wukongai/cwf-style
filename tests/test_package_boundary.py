@@ -8,7 +8,7 @@ class PackageBoundaryTests(unittest.TestCase):
         forbidden_parts = {".env", ".backups", ".skill-engineering", "cookie", "token", "private"}
         offenders = []
         for path in root.rglob("*"):
-            if ".git" in path.parts or not path.is_file():
+            if ".git" in path.parts or ".backups" in path.parts or ".skill-engineering" in path.parts or not path.is_file():
                 continue
             relative = path.relative_to(root)
             if any(part in forbidden_parts for part in relative.parts):

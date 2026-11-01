@@ -1,6 +1,13 @@
 ---
 name: cwf-style-distillation
+display_name: 文风蒸馏
+display_name_zh: 文风蒸馏
+display_name_en: CWF Style Distillation
 description: Use when you need to study a specified author's or person's writing materials and create, review, or version a reusable writing-style profile.
+description_zh: 当用户需要研究指定作者或个人的写作材料，提取、复核或版本化可复用的文风档案时使用。
+description_en: Use when studying a specified author or person's writing materials to create, review, or version a reusable writing-style profile.
+author: wukongai
+version: 0.1.1
 ---
 
 # 文风蒸馏

@@ -1,6 +1,13 @@
 ---
 name: cwf-article-rewrite
+display_name: 文章改写
+display_name_zh: 文章改写
+display_name_en: CWF Article Rewrite
 description: Use when rewriting an existing article under an explicit preservation scope, structural rewrite mode, audience, length, and optional style-library profile.
+description_zh: 当用户提供完整原文，并明确改写幅度、结构边界、受众、篇幅或可选文风档案时使用。
+description_en: Use when rewriting a complete source article with an explicit preservation scope, structural mode, audience, length, or optional style profile.
+author: wukongai
+version: 0.1.1
 ---
 
 # 文章改写
